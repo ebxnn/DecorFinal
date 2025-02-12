@@ -38,7 +38,7 @@ export const analyzeOrders = async (req, res) => {
     const prompt = `
       Analyze the sentiment of the following order data:
       - Total Orders: ${totalOrders}
-      - Total Revenue: $${totalRevenue.toFixed(2)}
+      - Total Revenue: ₹${totalRevenue.toFixed(2)}
       - Most Ordered Product: ${mostOrderedProduct}
       Provide a structured bullet-point analysis of the sentiment based on this data.
     `;

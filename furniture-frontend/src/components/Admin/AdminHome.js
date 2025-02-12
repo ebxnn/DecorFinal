@@ -157,7 +157,7 @@ const AdminHome = () => {
               <Card>
                 <CardContent>
                   <Typography variant="h6">Total Revenue</Typography>
-                  <Typography variant="h4">${totalRevenue ? totalRevenue.toFixed(2) : '0.00'}</Typography>
+                  <Typography variant="h4">₹{totalRevenue ? totalRevenue.toFixed(2) : '0.00'}</Typography>
                 </CardContent>
               </Card>
             </Grid>

@@ -53,7 +53,7 @@ const SentimentAnalysis = () => {
               <FaDollarSign className="text-green-500 text-3xl" />
               <div>
                 <p className="text-gray-600">Total Revenue</p>
-                <h3 className="text-xl font-semibold">${sentimentData.totalRevenue.toFixed(2)}</h3>
+                <h3 className="text-xl font-semibold">₹{sentimentData.totalRevenue.toFixed(2)}</h3>
               </div>
             </div>
 
