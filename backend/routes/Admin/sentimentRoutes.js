@@ -4,6 +4,6 @@ import { analyzeOrders } from "../../controllers/Admin/sentimentController.js"; 
 const router = express.Router();
 
 // Route for Order Sentiment Analysis
-router.get("/analyze", analyzeOrders);
+router.post("/analyze", analyzeOrders);
 
 export default router;
